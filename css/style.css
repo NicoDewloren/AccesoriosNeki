@@ -49,6 +49,10 @@ footer .footer__redes {
   flex-direction: row;
   margin-top: 0.5rem;
 }
+footer .footer__redes .footer__red {
+  display: flex;
+  justify-content: center;
+}
 footer .footer__redes .footer__red img {
   width: 15%;
 }
