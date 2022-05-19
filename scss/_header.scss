@@ -1,0 +1,19 @@
+header {
+  font-family: Macondo;
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  color: black;
+
+  .neki__logo {
+    width: 15%;
+    display: none;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-top: 1rem;
+    color: black;
+  }
+}

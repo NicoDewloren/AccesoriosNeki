@@ -1,0 +1,31 @@
+footer {
+  background-color: white;
+  font-family: Macondo;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  .footer__redes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+
+    .footer__red {
+      img {
+        width: 15%;
+      }
+    }
+  }
+
+  .footer__derechos {
+    margin-top: 1rem;
+    text-align: end;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+  }
+  .footer__neki {
+    @extend .footer__derechos;
+    margin-top: 0rem;
+    text-align: end;
+  }
+}
