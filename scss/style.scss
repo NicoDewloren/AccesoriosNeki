@@ -25,6 +25,10 @@
   margin-top: 5rem;
   font-family: Indie Flower;
 
+  &-body {
+    background-color: $fivertiary-color;
+  }
+
   &-img {
     border-radius: 500px;
   }
@@ -33,12 +37,12 @@
     text-align: center;
     font-size: 2rem;
     text-transform: capitalize;
-    color: white;
+    color: $primary-color;
   }
 
   &-text {
     font-family: Macondo;
-    color: white;
+    color: black;
   }
 }
 
@@ -50,7 +54,7 @@
   &-title {
     font-size: 2rem;
     text-align: center;
-    background-color: $primary-color;
+    background-color: $fourtiary-color;
     border-radius: 25px;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -81,7 +85,7 @@
   &-text {
     font-size: 1.2rem;
     margin: 2rem 0.5rem;
-    background-color: $primary-color;
+    background-color: $fourtiary-color;
     border-radius: 25px;
     color: $tertiary-color;
     padding: 1rem;
@@ -98,27 +102,27 @@
 
 .productos__card {
   @include flexCenter(column);
-  background-color: black;
+  background-color: $secondary-color;
 
   &-title {
     font-size: 2rem;
     margin-top: 0.5rem;
     text-transform: uppercase;
     text-align: center;
-    color: $fivertiary-color;
+    color: $fourtiary-color;
   }
 
   &-text {
     margin-top: 0.5rem;
     align-self: flex-start;
     font-size: 1rem;
-    color: white;
+
     font-family: Macondo;
   }
 
   &-precio {
     font-size: 1.5rem;
-    background-color: $fivertiary-color;
+    background-color: $primary-color;
     margin-bottom: 2rem;
     color: black;
     border-radius: 25px;
@@ -127,13 +131,13 @@
 
   &-talle {
     font-size: 1.5rem;
-    color: white;
+
     font-family: Macondo;
   }
 
   &-color {
     font-size: 1.5rem;
-    color: white;
+
     font-family: Macondo;
   }
 
@@ -141,6 +145,7 @@
     border-radius: 25px;
     text-transform: uppercase;
     font-family: Macondo;
-    background-color: $fivertiary-color;
+    background-color: $fourtiary-color;
+    border-color: $fourtiary-color;
   }
 }
