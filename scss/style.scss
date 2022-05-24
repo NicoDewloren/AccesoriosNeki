@@ -1,7 +1,6 @@
 @import "variables";
 @import "mixins";
 @import "reset";
-
 @import "header";
 @import "footer";
 
@@ -22,8 +21,11 @@
 }
 
 .bienvenidos__cards {
-  margin-top: 5rem;
+  margin-top: 3rem;
   font-family: Indie Flower;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 
   &-body {
     background-color: $fivertiary-color;

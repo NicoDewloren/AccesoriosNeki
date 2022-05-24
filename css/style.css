@@ -81,8 +81,11 @@ footer .footer__neki {
 }
 
 .bienvenidos__cards {
-  margin-top: 5rem;
+  margin-top: 3rem;
   font-family: Indie Flower;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 .bienvenidos__cards-body {
   background-color: #ffbf69;
