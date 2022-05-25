@@ -32,6 +32,13 @@ header .nav-link {
   margin-top: 1rem;
   color: black;
 }
+header .navbar-toggler-icon {
+  background-color: #ffbf69;
+  border-radius: 20px;
+}
+header .navbar-toggler {
+  background-color: #2ec4b6;
+}
 
 footer {
   background-color: #ffbf69;
