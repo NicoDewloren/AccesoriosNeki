@@ -25,3 +25,15 @@ header {
     background-color: $primary-color;
   }
 }
+
+@media (min-width: 768px) {
+  header {
+    align-items: center;
+    .neki__logo {
+      display: inline-block;
+    }
+    .nav-link {
+      margin-right: 0.4rem;
+    }
+  }
+}

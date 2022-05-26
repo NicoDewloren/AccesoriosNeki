@@ -40,6 +40,17 @@ header .navbar-toggler {
   background-color: #2ec4b6;
 }
 
+@media (min-width: 768px) {
+  header {
+    align-items: center;
+  }
+  header .neki__logo {
+    display: inline-block;
+  }
+  header .nav-link {
+    margin-right: 0.4rem;
+  }
+}
 footer {
   background-color: #ffbf69;
   font-family: Macondo;
@@ -70,6 +81,11 @@ footer .footer__neki {
   text-align: end;
 }
 
+@media (min-width: 768px) {
+  footer .footer__redes .footer__red img {
+    width: 10%;
+  }
+}
 /*  INDEX */
 .bienvenidos__hero {
   display: flex;
@@ -211,6 +227,41 @@ footer .footer__neki {
   font-family: Macondo;
   background-color: #ff9f1c;
   border-color: #ff9f1c;
+}
+
+@media (min-width: 768px) {
+  .bienvenidos__hero .bienvenidos__title {
+    font-size: 3rem;
+    padding: 0.5rem;
+  }
+
+  .bienvenidos__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .bienvenidos__cards .card .bienvenidos__cards-img {
+    width: 100%;
+    height: 35%;
+  }
+
+  .bienvenidos__redes-img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .productos__hero-title {
+    font-size: 3rem;
+  }
+
+  .cards__productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
