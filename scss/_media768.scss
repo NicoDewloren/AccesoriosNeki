@@ -35,6 +35,5 @@
   .cards__productos {
     @include flexCenter(row);
     flex-wrap: wrap;
-    row-gap: 4rem;
   }
 }

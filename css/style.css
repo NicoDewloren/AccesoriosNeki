@@ -32,14 +32,6 @@ header .nav-link {
   margin-top: 1rem;
   color: black;
 }
-header .navbar-toggler-icon {
-  background-color: #ffbf69;
-  border-radius: 20px;
-}
-header .navbar-toggler {
-  background-color: #2ec4b6;
-}
-
 @media (min-width: 768px) {
   header {
     align-items: center;
@@ -181,7 +173,7 @@ footer .footer__neki {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 4rem;
+  gap: 2rem;
   font-family: Indie Flower;
 }
 
@@ -191,42 +183,57 @@ footer .footer__neki {
   align-items: center;
   flex-direction: column;
   background-color: #cbf3f0;
+  width: 22rem;
+  height: 50rem;
+  gap: 2rem;
 }
-.productos__card-title {
+.productos__card-img {
+  width: 22rem;
+  height: 30rem;
+  justify-self: flex-start;
+}
+.productos__card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 22rem;
+  height: 20rem;
+}
+.productos__card-body .productos__card-title {
   font-size: 2rem;
-  margin-top: 0.5rem;
   text-transform: uppercase;
-  text-align: center;
   color: #ff9f1c;
 }
-.productos__card-text {
-  margin-top: 0.5rem;
+.productos__card-body .productos__card-text {
   align-self: flex-start;
+  margin-left: 0.5rem;
   font-size: 1rem;
   font-family: Macondo;
 }
-.productos__card-precio {
+.productos__card-body .productos__card-precio {
   font-size: 1.5rem;
   background-color: #2ec4b6;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   color: black;
   border-radius: 25px;
-  padding: 0.5rem;
+  padding: 0.2rem;
 }
-.productos__card-talle {
-  font-size: 1.5rem;
+.productos__card-body .productos__card-talle {
+  font-size: 1.2rem;
   font-family: Macondo;
 }
-.productos__card-color {
-  font-size: 1.5rem;
+.productos__card-body .productos__card-color {
+  font-size: 1.2rem;
   font-family: Macondo;
 }
-.productos__card .btn {
+.productos__card-body .btn {
   border-radius: 25px;
   text-transform: uppercase;
   font-family: Macondo;
   background-color: #ff9f1c;
   border-color: #ff9f1c;
+  margin-bottom: 0.5rem;
 }
 
 @media (min-width: 768px) {
@@ -260,7 +267,6 @@ footer .footer__neki {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 4rem;
   }
 }
 

@@ -99,57 +99,69 @@
 
 .cards__productos {
   @include flexCenter(column);
-  gap: 4rem;
+  gap: 2rem;
   font-family: Indie Flower;
 }
 
 .productos__card {
   @include flexCenter(column);
   background-color: $secondary-color;
+  width: 22rem;
+  height: 50rem;
+  gap: 2rem;
 
-  &-title {
-    font-size: 2rem;
-    margin-top: 0.5rem;
-    text-transform: uppercase;
-    text-align: center;
-    color: $fourtiary-color;
+  &-img {
+    width: 22rem;
+    height: 30rem;
+    justify-self: flex-start;
   }
 
-  &-text {
-    margin-top: 0.5rem;
-    align-self: flex-start;
-    font-size: 1rem;
+  &-body {
+    @include flexCenter(column);
+    width: 22rem;
+    height: 20rem;
 
-    font-family: Macondo;
-  }
+    .productos__card-title {
+      font-size: 2rem;
+      text-transform: uppercase;
+      color: $fourtiary-color;
+    }
 
-  &-precio {
-    font-size: 1.5rem;
-    background-color: $primary-color;
-    margin-bottom: 2rem;
-    color: black;
-    border-radius: 25px;
-    padding: 0.5rem;
-  }
+    .productos__card-text {
+      align-self: flex-start;
+      margin-left: 0.5rem;
+      font-size: 1rem;
+      font-family: Macondo;
+    }
 
-  &-talle {
-    font-size: 1.5rem;
+    .productos__card-precio {
+      font-size: 1.5rem;
+      background-color: $primary-color;
+      margin-bottom: 0.5rem;
+      color: black;
+      border-radius: 25px;
+      padding: 0.2rem;
+    }
 
-    font-family: Macondo;
-  }
+    .productos__card-talle {
+      font-size: 1.2rem;
 
-  &-color {
-    font-size: 1.5rem;
+      font-family: Macondo;
+    }
 
-    font-family: Macondo;
-  }
+    .productos__card-color {
+      font-size: 1.2rem;
+      font-family: Macondo;
+    }
 
-  .btn {
-    border-radius: 25px;
-    text-transform: uppercase;
-    font-family: Macondo;
-    background-color: $fourtiary-color;
-    border-color: $fourtiary-color;
+    .btn {
+      border-radius: 25px;
+      text-transform: uppercase;
+      font-family: Macondo;
+      background-color: $fourtiary-color;
+      border-color: $fourtiary-color;
+      margin-bottom: 0.5rem;
+    }
   }
 }
 
