@@ -14,7 +14,7 @@ footer {
       display: flex;
       justify-content: center;
       img {
-        width: 5%;
+        width: 20%;
       }
     }
   }
@@ -38,6 +38,21 @@ footer {
       .footer__red {
         img {
           width: 10%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  footer {
+    .footer__redes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .footer__red {
+        img {
+          width: 8%;
         }
       }
     }

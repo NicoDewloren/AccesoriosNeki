@@ -34,3 +34,17 @@ header {
     }
   }
 }
+
+@media (min-width: 992px) {
+  header {
+    align-items: center;
+
+    .neki__logo {
+      display: inline-block;
+      width: 5%;
+    }
+    .nav-link {
+      margin-right: 0.4rem;
+    }
+  }
+}

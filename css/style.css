@@ -43,6 +43,18 @@ header .nav-link {
     margin-right: 0.4rem;
   }
 }
+@media (min-width: 992px) {
+  header {
+    align-items: center;
+  }
+  header .neki__logo {
+    display: inline-block;
+    width: 5%;
+  }
+  header .nav-link {
+    margin-right: 0.4rem;
+  }
+}
 footer {
   background-color: #ffbf69;
   font-family: Macondo;
@@ -60,7 +72,7 @@ footer .footer__redes .footer__red {
   justify-content: center;
 }
 footer .footer__redes .footer__red img {
-  width: 5%;
+  width: 20%;
 }
 footer .footer__derechos, footer .footer__neki {
   margin-top: 1rem;
@@ -76,6 +88,16 @@ footer .footer__neki {
 @media (min-width: 768px) {
   footer .footer__redes .footer__red img {
     width: 10%;
+  }
+}
+@media (min-width: 992px) {
+  footer .footer__redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer__redes .footer__red img {
+    width: 8%;
   }
 }
 /*  INDEX */
@@ -110,7 +132,7 @@ footer .footer__neki {
   width: 22rem;
   height: 33rem;
   background-color: #ffbf69;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 .bienvenidos__cards .bienvenidos__card-body {
   width: 22rem;
@@ -266,6 +288,7 @@ footer .footer__neki {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 2rem;
   }
   .bienvenidos__cards .card .bienvenidos__cards-img {
     width: 100%;
@@ -288,6 +311,12 @@ footer .footer__neki {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+}
+@media (min-width: 992px) {
+  .bienvenidos__cards {
+    width: 95%;
+    margin-left: 3rem;
   }
 }
 
