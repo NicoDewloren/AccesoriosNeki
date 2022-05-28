@@ -43,6 +43,7 @@
       width: 22rem;
       height: 20rem;
       justify-self: flex-start;
+      object-fit: cover;
     }
 
     &-title {
@@ -125,6 +126,7 @@
     width: 22rem;
     height: 30rem;
     justify-self: flex-start;
+    object-fit: cover;
   }
 
   &-body {

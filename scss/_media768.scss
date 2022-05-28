@@ -10,12 +10,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 
     .card {
       .bienvenidos__cards-img {
         width: 100%;
         height: 35%;
+        object-fit: cover;
       }
     }
   }
