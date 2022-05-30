@@ -31,6 +31,12 @@ header .nav-link {
   text-transform: uppercase;
   margin-top: 1rem;
   color: black;
+  background-color: #cbf3f0;
+  border-radius: 50px;
+}
+header .nav-link:hover {
+  background-color: #2ec4b6;
+  border-radius: 50px;
 }
 @media (min-width: 768px) {
   header {
@@ -56,7 +62,7 @@ header .nav-link {
   }
 }
 footer {
-  background-color: #ffbf69;
+  background-color: #cbf3f0;
   font-family: Macondo;
   margin-top: 2rem;
   display: flex;
@@ -133,6 +139,9 @@ footer .footer__neki {
   height: 33rem;
   background-color: #ffbf69;
   margin-top: 2rem;
+  box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.44);
 }
 .bienvenidos__cards .bienvenidos__card-body {
   width: 22rem;
@@ -222,6 +231,9 @@ footer .footer__neki {
   background-color: #cbf3f0;
   width: 22rem;
   height: 50rem;
+  box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.44);
 }
 .productos__card-img {
   width: 22rem;

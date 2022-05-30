@@ -33,6 +33,9 @@
     height: 33rem;
     background-color: $fivertiary-color;
     margin-top: 2rem;
+    box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.44);
 
     &-body {
       width: 22rem;
@@ -121,6 +124,9 @@
   background-color: $secondary-color;
   width: 22rem;
   height: 50rem;
+  box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 1px 0px 21px 1px rgba(0, 0, 0, 0.44);
 
   &-img {
     width: 22rem;
