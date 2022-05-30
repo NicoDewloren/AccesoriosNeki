@@ -123,6 +123,11 @@ footer .footer__neki {
   margin: 2rem 1rem 2rem 1rem;
 }
 
+.carousel-item {
+  height: 70vh;
+  object-fit: fill;
+}
+
 .bienvenidos__cards {
   margin-top: 1rem;
   font-family: Indie Flower;
@@ -207,7 +212,7 @@ footer .footer__neki {
 .productos__hero-text {
   font-size: 1.2rem;
   margin: 2rem 0.5rem;
-  background-color: #ff9f1c;
+  background-color: #ffbf69;
   border-radius: 25px;
   color: #ffffff;
   padding: 1rem;

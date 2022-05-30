@@ -20,6 +20,12 @@
   }
 }
 
+.carousel-item {
+  height: 70vh;
+
+  object-fit: fill;
+}
+
 .bienvenidos__cards {
   margin-top: 1rem;
   font-family: Indie Flower;
@@ -104,7 +110,7 @@
   &-text {
     font-size: 1.2rem;
     margin: 2rem 0.5rem;
-    background-color: $fourtiary-color;
+    background-color: $fivertiary-color;
     border-radius: 25px;
     color: $tertiary-color;
     padding: 1rem;
