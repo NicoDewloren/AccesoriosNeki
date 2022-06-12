@@ -115,6 +115,25 @@
     color: $tertiary-color;
     padding: 1rem;
   }
+
+  .guia__talles {
+    background-color: $fivertiary-color;
+    border-radius: 25px;
+    padding: 1rem;
+    font-family: Macondo;
+    @include flexCenter(column);
+
+    &-title {
+      font-size: 2.5rem;
+    }
+    &-text {
+      font-size: 1.5rem;
+      background-color: $fourtiary-color;
+      border-radius: 25px;
+      padding: 0.5rem;
+      align-self: center;
+    }
+  }
 }
 
 /* CARDS PRODUCTOS */

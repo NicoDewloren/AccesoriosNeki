@@ -217,6 +217,26 @@ footer .footer__neki {
   color: #ffffff;
   padding: 1rem;
 }
+.productos__hero .guia__talles {
+  background-color: #ffbf69;
+  border-radius: 25px;
+  padding: 1rem;
+  font-family: Macondo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.productos__hero .guia__talles-title {
+  font-size: 2.5rem;
+}
+.productos__hero .guia__talles-text {
+  font-size: 1.5rem;
+  background-color: #ff9f1c;
+  border-radius: 25px;
+  padding: 0.5rem;
+  align-self: center;
+}
 
 /* CARDS PRODUCTOS */
 .cards__productos {
